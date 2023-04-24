@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+ion-title {
+    text-align: center;
+    font-size: 1.3em;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+
+ion-toolbar {
+    --background: black;
+    border-bottom: solid 1px rgb(100, 100, 100);
+}
+
+ion-content {
+    --background: black;
+}
+
+.descricao h2 {
+    margin-bottom: -5%;
+    font-size: 0.9em;
+    color: #f2f2f2;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.ensaio {
+    margin-top: 5%;
+    margin-bottom: -8%;
+}

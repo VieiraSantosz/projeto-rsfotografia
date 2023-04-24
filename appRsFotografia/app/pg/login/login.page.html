@@ -1,0 +1,41 @@
+<ion-content class="fundo">
+
+  <ion-row>
+    <ion-col class="logo" offset-xs="2" size="8" >
+      <img src="../../../assets/imgApp/logoRs.png" alt="Logo">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="12">  
+      <ion-item class="caixa">
+        <ion-label position="floating"> E-mail </ion-label>
+        <ion-input type="email" placeholder="E-mail" autofocus="true" [(ngModel)]="email"></ion-input>
+      </ion-item>
+    </ion-col>  
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating"> Senha </ion-label>
+        <ion-input type="password" placeholder="Senha" autofocus="true" [(ngModel)]="senha"> </ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-col class="entrar" offset-xs="2" size="8">
+    <ion-button expand="block" (click)="logar()">ENTRAR</ion-button>
+  </ion-col>
+
+  <ion-row>
+    <ion-col class="social" size="12">
+      <h2> Ou faça o login com 
+        <img src="../../../assets/imgApp/face.png">
+        <img src="../../../assets/imgApp/google.png">
+        <img src="../../../assets/imgApp/apple.png"> 
+      </h2>
+    </ion-col>  
+  </ion-row>
+
+</ion-content>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+/* font-family: 'Mitr', sans-serif; */
+
+.fundo {
+    --background: black;
+}
+
+ion-img {
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+.conf {
+    background: #D9CBBA;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.conf h1 {
+    color: black;
+    font-size: 0.9em;
+    font-weight: bolder;
+    margin: 0% 5%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.caixa {
+    --background: black;
+}
+
+.caixa h2 {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: -1%;
+    margin-left: 6%;
+}
+
+.confirmar {
+    list-style: none;
+    padding: 10% 0;
+}
+
+.confirmar ion-button {
+    --background: #d9cbbaf6;
+}
+
+.confirmar ion-button {
+    color:black;
+}
+
+.confirmar ion-button {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 0 20% 0 10% ;
+    font-family: 'Mitr', sans-serif;
+}

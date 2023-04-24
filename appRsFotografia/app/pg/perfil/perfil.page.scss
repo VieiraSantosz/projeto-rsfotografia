@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+/* font-family: 'Mitr', sans-serif; */
+
+.fundo {
+    --background: black;
+}
+
+.logo {
+    margin-top: 30%;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login {
+    margin-top: 40%;
+    margin-left: 15%;
+    list-style: none;
+    padding: 10% 0;
+}
+
+.login ion-button {
+    --background: #d9cbba;
+}
+
+.login ion-button {
+    color:black;
+}
+
+.login ion-button {
+    font-size: 14px;
+    text-align: center;
+    
+    color: black;
+    text-decoration: none;
+    margin: 0 10%;
+    font-family: 'Mitr', sans-serif;
+}
+
+.login h2 {
+    font-size: 0.8em;
+    margin-left: 6%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.social h2 {
+    font-size: 0.8em;
+    margin-left: 17%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.social img {
+    width: 8%;
+    margin: 0% 2%;
+}
+

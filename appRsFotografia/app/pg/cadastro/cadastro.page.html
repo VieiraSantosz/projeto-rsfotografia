@@ -1,0 +1,47 @@
+<ion-content class="fundo">
+
+  <img class="logo" src="../../../assets/imgApp/RSFotografiaApp.png">
+
+  <ion-row>
+    <ion-col class="conta" size="12">
+      <h2> Criar uma conta </h2>
+    </ion-col>
+  </ion-row>
+
+  <form [formGroup]="cadastro" (ngSubmit)="cadCliente()">
+  <ion-row>
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label  position="floating"> Nome + Sobrenome </ion-label>
+        <ion-input type="name" placeholder="Nome" autofocus="true" [(ngModel)]="nome" formControlName="nome"></ion-input>
+      </ion-item>
+    </ion-col>
+  
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating"> Endereço de email </ion-label>
+        <ion-input type="email" placeholder="E-mail" autofocus="true" [(ngModel)]="email" formControlName="email"></ion-input>
+      </ion-item>
+    </ion-col>
+  
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating"> Senha </ion-label>
+        <ion-input type="password" placeholder="Senha" autofocus="true" [(ngModel)]="senha" formControlName="senha"> </ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa"> 
+        <ion-label position="floating"> Cidade </ion-label>
+        <ion-input placeholder="Cidade" autofocus="true" [(ngModel)]="cidade" formControlName="cidade"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col class="continuar" size="8">
+      <ion-button expand="block" type="submit"> Continuar </ion-button>
+    </ion-col>
+  </ion-row>
+  </form>
+
+</ion-content>

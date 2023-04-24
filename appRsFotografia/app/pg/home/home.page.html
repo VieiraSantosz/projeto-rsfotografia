@@ -1,0 +1,18 @@
+<ion-content class="fundo">
+
+  <img class="logo" src="../../../assets/imgApp/RSFotografiaApp.png" alt="Logo RsFotografia">
+  <hr>
+
+  <ion-row class="imagem1">
+    <ion-col size="6" *ngFor="let foto of fotoss">
+      <ion-img [src]="servidorUrl.getUrl()+foto.fotos" ></ion-img>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="vermais" size="8">
+      <a href="tabs/pg/sobre"><ion-button expand="block"> 
+        Veja alguns dos nossos ensaios! </ion-button> </a>
+    </ion-col>
+  </ion-row>
+</ion-content>

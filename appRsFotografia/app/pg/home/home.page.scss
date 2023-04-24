@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+/* font-family: 'Mitr', sans-serif; */
+
+.fundo {
+    --background: rgb(0, 0, 0);   
+}
+
+.logo {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+hr {
+    border-bottom: solid 1px rgb(100, 100, 100);    
+    margin-bottom: 15%;
+}
+
+.imagem1 {
+    margin-top: -13%;
+}
+
+.vermais a {
+    text-decoration: none;
+}
+
+.vermais {
+    list-style: none;
+    padding: 5% 0;
+    margin-left: 17%;
+}
+
+.vermais ion-button {
+    --background: #d9cbbaf6;
+}
+
+.vermais ion-button {
+    color:black;
+}
+
+.vermais ion-button {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    margin: 0% -13%;
+    font-family: 'Comfortaa', cursive;
+    text-transform: capitalize;
+}

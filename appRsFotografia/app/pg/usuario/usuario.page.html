@@ -1,0 +1,37 @@
+<ion-content class="fundo"> 
+ 
+   <ion-row class="qualquer">
+    <ion-col size="12">
+      <ion-img class="logo" [src]="servidorUrl.getUrl() + dadosUsuario.getFotoUsuario()" 
+                            alt="{{this.dadosUsuario.getNomeUsuario()}}"></ion-img>
+    </ion-col>
+  </ion-row>
+ 
+  <ion-row class="conf">
+    <ion-col size="12">
+      <h1> Informações pessoais </h1>
+    </ion-col>
+  </ion-row>
+ 
+  <ion-row>
+   <ion-col class="caixa" size="12">
+     <h2> Nome: {{this.dadosUsuario.getNomeUsuario()}} </h2>
+   </ion-col>
+ </ion-row>
+ 
+ <ion-row>
+  <ion-col class="caixa" size="12">
+    <h2> E-mail: {{this.dadosUsuario.getEmailUsuario()}} </h2>
+  </ion-col>
+</ion-row>
+
+<ion-row>
+  <ion-col class="btnlogin" offset-xs="2" size="8">
+    <ion-button class="btn btnLogar" expand="block" (click)="sairLogin()">SAIR</ion-button>
+  </ion-col>
+</ion-row>
+  
+ </ion-content>
+
+ 
+ 

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+/* font-family: 'Mitr', sans-serif; */
+
+ion-toolbar {
+    --background: black;
+    border-bottom: solid 1px rgb(100, 100, 100);
+    font-family: 'Comfortaa', cursive;
+}
+
+.fundo {
+    --background: rgb(0, 0, 0);   
+}
+
+.contato h1 {
+    font-size: 1.1em;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 2%;
+}
+
+.contato h2 {
+    font-size: 0.9em;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 2%;
+}
+
+.caixa {
+    --background: black;
+}
+
+.caixa ion-label {
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.entrar {
+    list-style: none;
+    padding: 10% 0;
+}
+
+.entrar ion-button {
+    --background: #d9cbbaf6;
+}
+
+.entrar ion-button {
+    color:black;
+}
+
+.entrar ion-button {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 0 20% 0 10% ;
+    font-family: 'Mitr', sans-serif;
+}

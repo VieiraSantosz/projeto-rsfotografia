@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Contato </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fundo">
+
+  <ion-row>
+    <ion-col class="contato" size="12">
+      <h1>Entraremos em Contato</h1>
+      <h2>Deixe seus dados que entraremos em contato o mais rápido possível!</h2>
+    </ion-col>
+  </ion-row>
+
+  <form [formGroup]="cadastro" (ngSubmit)="cadCliente()">
+  <ion-row>
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating">Nome + Sobrenome</ion-label>
+        <ion-input type="nome" placeholder="Nome" autofocus="true" [(ngModel)]="nome" formControlName="nome"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label  position="floating">E-mail</ion-label>
+        <ion-input type="email" placeholder="E-mail" [(ngModel)]="email" formControlName="email"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa">
+          <ion-label  position="floating">Celular</ion-label>
+          <ion-input type="celular" name="Celular" [(ngModel)]="celular" formControlName="celular" placeholder="(dd) + número" [brmasker]="{phone: true}"></ion-input>
+        </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating">Endereço do evento</ion-label>
+        <ion-input type="endereco" placeholder="Endereco" [(ngModel)]="endereco" formControlName="endereco"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating">Data do evento</ion-label>
+        <ion-input type="text" placeholder="dia/mês/ano" [(ngModel)]="data" formControlName="data"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa"> 
+        <ion-label position="floating">Como nos conheceu?</ion-label>
+        <ion-input type="conheceu" placeholder="Conheceu" [(ngModel)]="conheceu" formControlName="conheceu"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="12">
+      <ion-item class="caixa">
+        <ion-label position="floating">Mensagem:</ion-label>
+        <ion-input type="mensagem" placeholder="Mensagem" [(ngModel)]="mensagem" formControlName="mensagem"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col class="entrar" size="8">
+      <ion-button expand="block" type="submit"> Enviar </ion-button>
+    </ion-col>
+  </ion-row>
+</form>
+
+</ion-content>
