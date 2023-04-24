@@ -1,0 +1,1203 @@
+/* Estilo Topo */
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+/* font-family: 'Moon Dance', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* Estilo do Contato */
+@import url('https://fonts.googleapis.com/css2? family = Nanum + Myeongjo & display = swap');
+/* font-family: 'Nanum Myeongjo', serifa; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+/* Estilo do Depoimento */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* font-family: 'Assistant', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+.site {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Poiret One', cursive ;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Nanum Myeongjo', serifa;
+    background: url(../img/interlaced.png);
+}
+
+.topoMenu {
+    background: url(../img/banner.png);
+}
+
+.topoMenu div h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 390px;
+    font-family: 'Poiret One', cursive;
+}
+
+.menuLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00000080;
+    padding: 0 351px;
+}
+
+.menuLogo ul {
+    margin: 10px;
+    display: flex;
+}
+
+.botao {
+    opacity: 100%;
+    padding: 0 95px;
+    display: flex;
+}
+
+.botao li {
+    margin: 50px;
+}
+
+.botao li a {
+    color: white;
+    font-size: 23px;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+}
+
+.social li {
+    margin: 10px;
+}
+/* FIM TOPO PRINCIPAL */
+
+/* TOPO */
+.topoMenuSec {
+    background: #262323;
+}
+
+.menuLogoSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuLogoSec ul {
+    margin: 10px;
+    display: flex;
+}
+/* FIM TOPO */
+
+/* RECENTE */
+.recente {
+    background: #262323;
+    padding: 50px 0 0 0;
+}
+
+.recente h2 {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 0 100px;
+    
+}
+
+.imgRecente {
+    background: #403a3a;
+    padding: 50px 0 50px 0;
+}
+
+.imgRecente div div {
+    margin: 0 3px;
+}
+
+.imgRecente .slick-dots {
+    bottom: 10px;
+}
+
+.imgRecente .slick-dots li button::before {
+    font-size: 10px;
+    color: #f2f2f2;
+    opacity: 200px;
+}
+
+.imgRecente .slick-dots li.slick-active button::before {
+    opacity: 1;
+    color: #f2f2f2;
+}
+
+.imgRecente .slick-prev:before,
+.imgRecente .slick-next:before{
+    font-size: 10px;
+    opacity: 0;
+    color: #f2f2f2;
+}
+
+.imgRecente .slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.imgRecente .slick-next {
+    right: 30px;
+}
+
+.vermais {
+    background: #262323;
+    padding: 30px 0 30px 0;
+}
+
+.vermais div li :hover {
+    background: #d9cbba;
+}
+
+.vermais div li a:hover{
+    color: black;
+}
+
+.vermais div li a {
+    font-size: 30px;
+    text-align: center;
+    color: #d9cbba;
+    border:solid #d9cbba;
+    text-decoration: none;
+    margin: 0 46%;
+    padding: 0 20px;
+}
+/* FIM RECENTE*/
+
+/* FOTOS */
+.ensaios {
+    background: #262323;
+    padding: 0 0 25px 0;
+}
+
+.ensaios h2 {
+    color: #f2f2f2;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid;
+    padding: 10px 0 28px 0;
+    font-family: 'Nanum Myeongjo', serifa;
+}
+
+.imgRecenteSec {
+    background: #262323;
+    padding: 0;
+    text-align: center;
+}
+
+.mostrarmais {
+    background: #262323;
+    padding: 30px 0 30px 0;
+}
+
+.mostrarmais div li :hover {
+    background: #d9cbba;
+}
+
+.mostrarmais div li a:hover{
+    color: black;
+}
+
+.mostrarmais div li a {
+    font-size: 25px;
+    text-align: center;
+    color: #d9cbba;
+    border:solid #d9cbba;
+    text-decoration: none;
+    margin: 0 45%;
+    padding: 0 23px;
+}
+
+/* FIM FOTOS*/
+
+/* DEPOIMENTO */
+.depoimento {
+    background: #403a3a;
+}
+
+.depoimento h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 15px 0 0 0;
+}
+
+.imgDepoimento  {
+    background: #403a3a;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.imgDepoimento img {
+    margin: 0 auto;
+}
+
+.imgDepoimento h2 {
+    background: #403a3a;
+    font-size: 15px;
+    padding: 30px 400px 25px 400px;
+    color: #f2f2f2;
+    font-family: 'Assistant', sans-serif;
+}
+
+.imgDepoimento p {
+    background: #403a3a;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0 0 0;
+    color: #f2f2f2;
+    font-family: 'Assistant', sans-serif;
+}
+
+.imgDepoimento .slick-prev:before,
+.imgDepoimento .slick-next:before{
+    font-size: 25px;
+    opacity: 30;
+    color: #f2f2f2;
+}
+
+.imgDepoimento .slick-prev {
+    left: 20px;
+    z-index: 1;
+}
+
+.imgDepoimento .slick-next {
+    right: 30px;
+}
+/* FIM DEPOIMENTO */
+
+/* DESTAQUE */
+.destaque {
+    background: #262323;
+    padding: 50px 0 0 0;
+}
+
+.destaque h2 {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 0 100px;
+}
+
+.imgDestaque  {
+    background: #403a3a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 2.5px 50px 2.5px;
+}
+/* FIM DESTAQUE */
+
+/* SOBRE */
+.txtSobre {
+    background: #262323;
+}
+
+.txtSobre {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 50px 50px;
+}
+
+.txtSobre h2 {
+    padding: 10px 450px;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Poiret One', cursive;
+}
+
+.rhayane {
+    text-align: center;
+    padding: 0 0 35px 0;
+    font-size: 40px;
+}
+
+.quero {
+    text-align: center;
+    padding: 10px 0 25px 0;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+}
+
+.imgsobre {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.solicite {
+    background: #262323;
+    padding: 30px 0 30px 25%;
+}
+
+.solicite div li :hover {
+    background: #d9cbba;
+}
+
+.solicite div li a:hover{
+    color: black;
+}
+
+.solicite div li a {
+    font-size: 20px;
+    text-align: left;
+    color: #d9cbba;
+    border:solid #d9cbba;
+    text-decoration: none;
+    padding: 2px 5px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}
+
+/* FIM SOBRE*/
+
+/* CONTATO */
+.txtContato {
+    background: #262323;
+    color: #f2f2f2;
+}
+
+.contatoSec {
+    text-align: left;
+    padding: 5% 0 0 25%;
+    font-size: 35px;
+    font-family: 'Nanum Myeongjo', serifa;
+}
+
+.dados {
+    text-align: left;
+    padding: 1% 0 0 25%;
+    font-size: 25px; 
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2%;
+}
+
+.cadastroSec {
+    text-align: left;
+    padding: 1% 0 1% 20%;
+    font-size: 18px; 
+}
+
+.cadastroSec h2 {
+    padding: 3px 0 0 0;
+}
+
+.cadastroSec p {
+    padding: 0 0 15px 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.formulario h4{
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 24%;
+    border-bottom: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.caixaform form div div input[type="text"],
+.caixaform form div div input[type="email"],
+.caixaform form div div input[type="date"],
+.caixaform form div div input[type="tel"],
+.caixaform form div div textarea {
+    padding: 7px;
+    width: 70%;
+    margin-bottom: 1.5em;
+    font-size: 1.3em;
+}
+
+.caixaform {
+    margin-left: 123px; 
+}
+
+.caixaform form div div input[type="submit"] {
+    width: 12%;
+    background: #262323;
+    border: solid 2px #d9cbba;
+    color: #d9cbba;
+    font-size: 1.7em;
+    margin-left: 29%;
+}
+
+.caixaform form div div input[type="submit"]:hover {
+    background: #d9cbba;
+    border: solid 2px #d9cbba;
+    color: #262323;
+}
+
+.enviar {
+    background: #262323;
+    padding: 30px 0 30px 0;
+}
+
+/* FIM CONTATO */
+
+/* RODAPÉ */
+.txtCadas {
+    background: #262323;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serifa;
+    padding: 15px 0;
+}
+
+
+.rodape {
+    background:#262323;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 0 10%;
+}
+
+.sobre p {
+    padding: 10px 50px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 33%;
+}
+
+.informacoes div h2 {
+    padding: 0 0 0 15px;
+    text-align: left;
+}
+
+
+.caixa input{
+    width: 33%;
+    align-items: center;
+    padding: 7px 150px;
+}
+
+.cad {
+    background: #403a3a;
+    padding: 30px 0 30px 0;
+    justify-items: center;
+}
+
+.cad div li :hover {
+    background: #d9cbba;
+}
+
+.cad div li a:hover{
+    color: black;
+}
+
+.cad div li a {
+    font-size: 30px;
+    text-align: center;
+    color: #d9cbba;
+    border:solid #d9cbba;
+    text-decoration: none;
+    margin: 0 30%;
+    padding: 0 20px;
+}
+
+.contato {
+    font-size: 20px;
+    text-align: right;
+    width: 33%;
+    padding: 15px 0 0 0;
+}
+
+.softweb{
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.softweb h2{
+    color: #000000;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* FIM RODAPÉ */
+
+li {
+    list-style-type: none;
+}
+
+/* RODAPÉ FOTOS */
+.txtCadasSec {
+    background: #403a3a;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serifa;
+    padding: 15px 0;
+}
+
+.rodapeSec {
+    background:#403a3a;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 0 10%;
+}
+
+.clique {
+    margin: 20px 165px 0
+}
+
+.clique div li a{
+    font-size: 25px;
+    text-align: center;
+    color: #d9cbba;
+    border: solid #d9cbba;
+    text-decoration: none;
+    padding: 0 28px;
+}
+
+.clique div li :hover {
+    background: #d9cbba;
+}
+
+.clique div li a:hover{
+    color: black;
+}
+
+/* FIM RODAPÉ FOTOS */
+
+@media not all and (max-width:600px){
+    .abrir-menu,
+    .fechar-menu{
+        display: none;
+    }
+}
+
+/* MOBILE 0 ATÉ 600PX */
+
+@media (max-width:600px) {
+
+.menuLogo {
+    padding: 55px 0;
+    flex-direction: column;
+}
+
+.menuLogo ul {
+    display: block;
+    margin: 0;
+}
+
+.menuLogo nav {
+    align-self: flex-end;
+    position: absolute;
+    padding: 20% 0 0 0;
+}
+
+.menuLogoSec {
+    padding: 35px 0;
+    flex-direction: column;
+}
+
+.menuLogoSec ul {
+    display: block;
+    margin: 0;
+}
+
+.menuLogoSec nav {
+    align-self: flex-end;
+    position: absolute;
+    padding: 115px 0 0 0;
+}
+
+.botao {
+    display: block;
+}
+
+.botao {
+    background: #00000087;
+    flex-direction: column;
+    padding: 0%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+        
+    margin: 0;
+    top: 0;
+    max-width: 350px;
+    width: 50%;
+        
+    right: -350px;
+    transition: right 0.5s ease-out;
+}
+
+.botao li {
+    margin: 2.5% 0;
+}
+
+.botao li {
+    padding: 20px 10px;
+}
+
+.botao li a {
+    padding: 20px 10px;
+}
+
+.menu-ativo .botao {
+    right: -85px;
+}
+
+.fechar-menu {
+    background: url(../img/cancel.png);
+    background-size: cover;
+    padding: 20px;
+    border: 0;
+    display: block;
+    margin-right: 10px;
+}
+
+.abrir-menu{
+    background: url(../img/menu.png);
+    background-size: cover;
+    padding: 20px;
+    border: 0;
+    display: block;
+    margin-right: 10px;
+}
+
+.topoMenu div h2 {
+    padding: 165px;
+    font-size: 25px;
+}
+
+.topoMenuSec div h2 {
+    padding: 165px;
+    font-size: 25px;
+}
+
+.social {
+    align-self: normal;
+    position: absolute;
+}
+
+.social li {
+    margin: 0;
+}
+
+/* RECENTES */
+
+.recente h2 {
+    font-size: 25px;
+    padding: 0 50px;
+}
+
+.imgRecente div div {
+    margin: 0 1px;
+}
+
+.imgRecente .slick-dots li button::before {
+    font-size: 8px;
+}
+
+.vermais div li a {
+    font-size: 25px;
+    margin: 0px 39%;
+    padding: 0px 18px;
+}
+
+/* DEPOIMENTOS */
+
+.imgDepoimento {
+    padding: 30px 0 5px 0;
+}
+
+.imgDepoimento h2 {
+    background: #403a3a;
+    font-size: 15px;
+    padding: 30px 100px 25px 100px;
+    color: #f2f2f2;
+    font-family: 'Assistant', sans-serif;
+}
+
+.depoimento h2 {
+    font-size: 27px;
+}
+
+/* DESTAQUE */
+
+.imgDestaque {
+    display: none;
+}
+
+.destaque {
+    display: none;
+}
+
+.destaque h2 {
+    display: none;
+}
+
+/* FOTOS */
+
+.mostrarmais div li a {
+    font-size: 25px;
+    margin: 0 34%;
+}
+
+/* SOBRE */
+
+.txtSobre h2 {
+    padding: 15px 5px;
+    font-size: 23px;
+}
+
+.rhayane p {
+    font-size: 35px;
+}
+
+.quero p {
+    font-size: 25px;
+}
+
+.solicite {
+    padding: 30px 0 30px 3%;
+}
+
+.solicite div li a {
+    font-size: 18px;
+    padding: 3px 5px;
+}
+
+/* CONTATO */
+
+.contatoSec {
+    padding: 5% 0 0 2%;
+    font-size: 27px;
+}
+
+.dados {
+    padding: 1% 0 5% 2%;
+    font-size: 18px;
+}
+
+.cadastroSec {
+    padding: 1% 0 1% 1%;
+}
+
+.cadastroSec p {
+    font-size: 15px;
+}
+
+.enviar {
+    padding: 15px 0 45px 0;
+}
+
+.enviar div li a {
+    margin: 0 6%;
+    padding: 0 30px;
+    font-size: 23px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    margin: 0px;
+    font-size: 17px;
+}
+
+.rodapeSec {
+    margin: 0px;
+    font-size: 17px;
+}
+
+.txtCadas {
+    padding: 15px 24px 0 24px;
+}
+
+.txtCadasSec {
+    padding: 15px 24px 0 24px;
+}
+
+.cadastro {
+    font-size: 22px;
+    padding: 0 0 0 15px;
+}
+
+.informacoes {
+    padding: 17px 0;
+    width: 33%;
+}
+
+.informacoes div h2 {
+    padding: 0px 0 0 10px;
+}
+
+.caixa input {
+    padding: 3px 92px;   
+}
+
+.sobre p {
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.contato {
+    font-size: 17px;
+    padding: 50px 0 0 0;
+    width: 40%;
+}
+
+.clique div li a {
+    margin: 0% -87%;
+}
+
+}    
+
+/* MOBILE 601 ATÉ 900PX */
+@media (max-width: 900px) and (min-width: 601px) {
+
+/* TOPO */
+
+.topoMenu {
+    background: url(../img/banner.png);
+}
+
+.topoMenu div h2 {
+    padding: 265px;
+    font-size: 25px;
+}
+
+.topoMenuSec div h2 {
+    padding: 310px;
+    font-size: 25px;
+}
+
+.menuLogo {
+    flex-direction: column;
+    padding: 2px 0;
+}
+
+.menuLogo ul {
+    margin: 3px;
+}
+
+.menuLogoSec {
+    flex-direction: column;
+    padding: 2px 0;
+}
+
+.menuLogoSec ul {
+    margin: 3px;
+}
+
+.botao {
+    display: flex;
+}
+
+.botao li a {
+    font-size: 20px;
+}
+
+.social {
+    align-self: flex-end;
+    padding: 0 0 19% 0;
+    position: absolute;
+}
+
+.social li {
+    margin: 2px;
+}
+
+/* RECENTES */
+
+.recente h2 {
+    font-size: 27px;
+}
+
+.imgRecente div div {
+    margin: 0 2px;
+}
+
+.imgRecente .slick-dots li button::before {
+    font-size: 8px;
+}
+
+.vermais div li a {
+    padding: 0px 19px;
+    font-size: 23px;
+    margin: 0 43%;
+}
+
+/* DEPOIMENTOS */
+
+.depoimento h2 {
+    font-size: 27px;
+}
+
+.imgDepoimento {
+    padding: 30px 0 10px 0;
+}
+
+.imgDepoimento h2{
+    padding: 30px 90px 25px 90px;
+}
+
+/* DESTAQUE */
+
+.destaque h2 {
+    font-size: 27px;
+}
+
+/* FOTOS */
+
+.mostrarmais div li a {
+    font-size: 23px;
+    margin: 0 40%;
+}
+
+/* SOBRE */
+
+.txtSobre h2 {
+    padding: 10px 55px;
+    font-size: 23px;
+}
+
+.rhayane p {
+    font-size: 35px;
+}
+
+.quero p {
+    font-size: 29px;
+}
+
+.solicite {
+    padding: 30px 0 30px 7%;
+}
+
+.solicite div li a {
+    font-size: 19px;
+    padding: 3px 5px;
+}
+
+/* CONTATO */
+
+.contatoSec {
+    padding: 5% 0 0 10%;
+    font-size: 30px;
+}
+
+.dados {
+    padding: 1% 0 0 10%;
+    font-size: 20px;
+}
+
+.cadastroSec {
+    padding: 1% 0 1% 10%;
+}
+
+.enviar {
+    padding: 15px 0 45px 0;
+}
+
+.enviar div li a {
+    margin: 0 12%;
+    padding: 0 30px;
+}
+
+/* DESTAQUE */
+
+.imgDestaque {
+    flex-direction: column;
+    padding: 20px 10% 20px 10%;
+}
+
+.imgDestaque img {
+    padding: 3px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.rodapeSec {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.txtCadas {
+    padding: 15px 7px;
+}
+
+.txtCadasSec {
+    padding: 15px 7px;
+}
+
+.cadastro {
+    font-size: 23px;
+}
+
+.caixa input {
+    padding: 3px 110px;   
+}
+
+.sobre p {
+    padding: 10px 5px;
+}
+
+.contato {
+    font-size: 18px;
+    padding: 30px 0 0 0;
+}
+
+.clique div li a {
+    margin: 0% -87%;
+}
+
+}
+
+
+/* MOBILE 901 ATÉ 1200PX */
+@media (max-width: 1200px) and (min-width: 901px) {
+
+/* TOPO */
+
+.menuLogo{
+    padding: 0;
+}
+
+.menuLogo ul {
+    margin: 3px;
+}
+
+.topoMenu {
+    background: url(../img/banner\ 1200.png);
+}
+
+.topoMenu div h2 {
+    font-size: 26px;
+    padding: 345px;
+}
+
+.botao {
+    padding: 0 58px 0 67px;
+    display: flex;
+}
+
+.botao li a {
+    font-size: 20px;
+}
+
+/* RECENTES */
+
+.vermais div li a {
+    font-size: 25px;
+    margin: 0 44%;
+}
+
+/* DEPOIMENTOS */
+
+.imgDepoimento {
+    padding: 30px 0 15px 0;
+}
+
+.imgDepoimento h2 {
+    font-size: 16px;
+    padding: 25px 100px;
+}
+
+.depoimento h2 {
+    font-size: 27px;
+}
+
+/* DESTAQUE */
+
+.imgDestaque {
+    flex-direction: column;
+    padding: 20px 10% 20px 10%;
+}
+
+.imgDestaque img {
+    padding: 3px;
+}
+
+/* FOTOS */
+
+.mostrarmais div li a {
+    margin: 0 42%;
+}
+
+/* SOBRE */
+
+.txtSobre h2 {
+    padding: 10px 78px;
+}
+
+.solicite {
+    padding: 30px 0 30px 7%;
+}
+
+.solicite div li a {
+    font-size: 19px;
+    padding: 3px 5px;
+}
+
+/* CONTATO */
+
+.dados {
+    font-size: 23px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    margin: 0 2%;
+}
+
+.rodapeSec {
+    margin: 0 2%;
+}
+
+.cadastro {
+    font-size: 25px;
+}
+
+.txtCadas {
+    padding: 10px 0;
+}
+
+.txtCadasSec {
+    padding: 7px 0;
+}
+
+.sobre p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.informacoes {
+    font-size: 18px;
+}
+
+.contato {
+    font-size: 18px;
+    padding: 30px 0 0 0;
+}
+.caixa input {
+    padding: 3px 150px;
+}
+
+.clique div li a {
+    margin: 0% -87%;
+}
+
+}
